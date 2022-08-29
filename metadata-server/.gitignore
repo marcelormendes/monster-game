@@ -1,0 +1,16 @@
+.data
+node_modules
+logs
+build
+*.log
+.env
+.coverage
+lftp.exe.stackdump
+.idea
+.yarnrc
+/tmp/uploads/*
+!/tmp/uploads/.keep
+.history/
+.vscode/
+.history
+.secret

@@ -1,0 +1,53 @@
+{
+  "name": "starter-slabs",
+  "version": "0.6.0",
+  "description": "A NFT Prototype for Starter about minting monsters",
+  "scripts": {
+    "compile": "truffle compile",
+    "depcheck": "echo '@chainlink/box' && depcheck --ignore-dirs=build/contracts || true",
+    "solhint": "solhint ./contracts/**/*.sol",
+    "lint": "yarn solhint",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "truffle test",
+    "codegen": "graph codegen",
+    "build-css": "tailwindcss build frontend/src/styles.css -o public/styles.css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0",
+    "@openzeppelin/contracts": "4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "dotenv": "^16.0.0",
+    "dotenv-safe": "^8.2.0",
+    "mem": "^9.0.2",
+    "minimist": "^1.2.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "yargs-parser": "^21.0.1"
+  },
+  "devDependencies": {
+    "@chainlink/belt": "^0.0.5-alpha",
+    "@chainlink/test-helpers": "0.0.7-alpha",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.4",
+    "axios": "^0.26.1",
+    "depcheck": "^1.3.1",
+    "ethers": "^5.5.3",
+    "postcss": "^8.4.12",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "tailwindcss": "^3.0.23",
+    "truffle": "^5.5.4",
+    "vite": "^2.7.2"
+  },
+  "resolutions": {
+    "**/minimist": "^0.2.1",
+    "**/node-fetch": "^2.6.1",
+    "**/yargs-parser": "^13.1.2",
+    "**/mem": "^4.0.0"
+  }
+}

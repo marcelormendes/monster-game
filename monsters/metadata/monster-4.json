@@ -1,0 +1,15 @@
+{
+  "name": "RedSoldier",
+  "description": "A Powerful Volcanic Soldier",
+  "image": "https://ipfs.io/ipfs/QmR5psM4QoSfx3PZPg9rVNqx4k3GddHucACqAUyPscE3Lg",
+  "attributes": [
+    {
+      "trait_type": "power",
+      "value": 0
+    },
+    {
+      "trait_type": "monster-type",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Tree",
+  "description": "The Big Tree",
+  "image": "https://ipfs.io/ipfs/QmNwqqGG4NF1rvmwXkCa5pA7NUhVrHaYVehf13R6a1CYah",
+  "attributes": [
+    {
+      "trait_type": "power",
+      "value": 0
+    },
+    {
+      "trait_type": "monster-type",
+      "value": 3
+    }
+  ]
+}

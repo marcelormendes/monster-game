@@ -1,0 +1,15 @@
+{
+  "name": "Bat",
+  "description": "Small, but stronger Bat",
+  "image": "https://ipfs.io/ipfs/QmRUQ214AWtKuWKuXepZmKGtk7Cd3kjxdHeK7ih4BD121s",
+  "attributes": [
+    {
+      "trait_type": "power",
+      "value": 0
+    },
+    {
+      "trait_type": "monster-type",
+      "value": 2
+    }
+  ]
+}

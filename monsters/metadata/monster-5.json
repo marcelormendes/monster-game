@@ -1,0 +1,15 @@
+{
+  "name": "Vamp",
+  "description": "Blood Blood Blood...",
+  "image": "https://ipfs.io/ipfs/QmRwwu7otcPitjzrjrqWzuZyivPkusAAP6RYqwjX4dhcxN",
+  "attributes": [
+    {
+      "trait_type": "power",
+      "value": 0
+    },
+    {
+      "trait_type": "monster-type",
+      "value": 5
+    }
+  ]
+}

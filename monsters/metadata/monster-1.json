@@ -1,0 +1,15 @@
+{
+  "name": "Spider",
+  "description": "A Giant Spider",
+  "image": "https://ipfs.io/ipfs/QmRoteRK7stkuCWWuBGfzVaBHS6qQKKfD6qhSwP4C5QHnN",
+  "attributes": [
+    {
+      "trait_type": "power",
+      "value": 0
+    },
+    {
+      "trait_type": "monster-type",
+      "value": 1
+    }
+  ]
+}

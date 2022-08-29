@@ -1,0 +1,25 @@
+{
+  "name": "starter-metadata-server",
+  "version": "0.6.0",
+  "description": "A NFT Prototype for Starter about minting monsters",
+  "scripts": {
+    "dev": "node --experimental-specifier-resolution=node ./src/app.js "
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.3",
+    "minimist": "^1.2.5",
+    "mongoose": "^6.2.9",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "ethers": "^5.5.3",
+    "prettier": "^2.5.1"
+  },
+  "type": "module"
+}
