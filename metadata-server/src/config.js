@@ -3,7 +3,7 @@ import dotenv from "dotenv-safe";
 dotenv.config({ allowEmptyValues: true });
 
 export const app = {
-  name: "Starter Lab Monster Metadata Server",
+  name: "Lab Monster Metadata Server",
   version: "1.0.0",
   host: process.env.APP_HOST || "",
   port: +(process.env.APP_PORT || "0"),

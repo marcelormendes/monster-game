@@ -1,7 +1,7 @@
 {
-  "name": "starter-slabs",
+  "name": "monster-slabs",
   "version": "0.6.0",
-  "description": "A NFT Prototype for Starter about minting monsters",
+  "description": "A NFT Prototype Collection about minting monsters",
   "scripts": {
     "compile": "truffle compile",
     "depcheck": "echo '@chainlink/box' && depcheck --ignore-dirs=build/contracts || true",

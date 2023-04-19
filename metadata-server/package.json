@@ -1,7 +1,7 @@
 {
-  "name": "starter-metadata-server",
+  "name": "monster-metadata-server",
   "version": "0.6.0",
-  "description": "A NFT Prototype for Starter about minting monsters",
+  "description": "A NFT Prototype Collection about minting monsters",
   "scripts": {
     "dev": "node --experimental-specifier-resolution=node ./src/app.js "
   },

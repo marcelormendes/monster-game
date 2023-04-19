@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 //This token has been used to Mint LabMonster tokens on MonsterGame Contract
 //The first version of MonsterGame contract will use 15 SLabs to mint a new LabMonster
 contract SLabs is ERC20 {
-    constructor(uint256 initialSupply) ERC20("StarterLabs", "SLABS") {
+    constructor(uint256 initialSupply) ERC20("Labs", "SLABS") {
         _mint(msg.sender, initialSupply);
     }
 }

@@ -22,7 +22,7 @@ app.use("/", router);
 
 try {
   console.log("db connect name", dbConfig.db_name);
-  await mongoose.connect(`mongodb://localhost:27017/starter`, {
+  await mongoose.connect(`mongodb://localhost:27017/monster`, {
     authSource: "admin",
     user: dbConfig.db_username,
     pass: dbConfig.db_password,

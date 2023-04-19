@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-//LabMonster -> Starter Lab Monster NFT Token
+//LabMonster -> Lab Monster NFT Token
 contract LabMonster is ERC721URIStorage, ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private tokenIds;
@@ -21,7 +21,7 @@ contract LabMonster is ERC721URIStorage, ERC721Enumerable, Ownable {
         _;
     }
 
-    constructor() ERC721("StarterLabMonster", "LABMONSTER") {}
+    constructor() ERC721("LabMonster", "LABMONSTER") {}
 
     function updateGameTokenAddrress(address _gameContract) public onlyOwner {
         gameContract = _gameContract;
