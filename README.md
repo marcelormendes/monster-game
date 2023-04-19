@@ -1,4 +1,4 @@
-# STARTER LAB - MONSTER GAME
+# MONSTER GAME
 
 ![MonsterGameIcon](https://gateway.pinata.cloud/ipfs/QmNwqqGG4NF1rvmwXkCa5pA7NUhVrHaYVehf13R6a1CYah)
 
