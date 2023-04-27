@@ -16,7 +16,7 @@ export const metadataService = async (
 ) => {
   try {
     const monsterMetadata = JSON.parse(
-      fs.readFileSync(
+      await fs.promises.readFile(
         `../monsters/metadata/monster-${monsterTypeId}.json`,
         "utf8"
       )
@@ -43,7 +43,7 @@ export const metadataService = async (
       const filetotal = `./metadata-generated/${filename}`;
 
       let monsterMetadataString = JSON.stringify(monsterMetadata);
-      fs.writeFileSync(filetotal, monsterMetadataString);
+      fs.promises.writeFile(filetotal, monsterMetadataString);
 
       const formData = new FormData();
       formData.append("file", fs.createReadStream(filetotal));
